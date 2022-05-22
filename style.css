@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;    
+}
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    justify-content: space-between;
+}
+
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    width: 25%;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
+.nav-menu li {
+    margin: 0 40px;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/vincentas-liskauskas-TPhZnl2NEws-unsplash.jpg);
+    background-size:cover;  
+    display: flex; 
+}
+
+.header-content {
+    width: 30%;
+    height: 40vh;
+    background-color: rgba(243, 162, 96, 0.772);
+    padding: 10px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.header-content p {
+    font-size:12px;
+    margin-top: 20px;
+}
+
+.header-content button {
+    font-size: 12px;
+}
+
+.main {
+    display: flex;
+    width: 60%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.main h1 {
+    width: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.main p {
+    width: 50%;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+button {
+    font-size: 18px;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.main img {
+    width: 50%;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 200px;    
+}
+
+.footer p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.icon {
+    display: flex;
+    margin-left: 100px;
+    padding: 50px;
+    font-size: 30px;
+    gap: 30px;
+}
+
+@media (max-width:800px) {
+    .nav-bar {
+        display: flex;
+        width: 100%;
+        height: 70px;
+        background-color: black;        
+    }
+
+    .logo {
+        font-size: 12px;            
+    }
+    .nav-menu {
+        display: flex;
+        font-size: 10px;        
+    }
+
+    .header {
+        width: 100%;
+        height: 100vh;
+        background-size:cover;  
+        display: flex; 
+    }
+
+    .header-content {
+        display: none;
+    }
+
+    .main {
+        background-color: black;
+        color: white;
+    }
+
+    .main h1, p {
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    .main button {
+        background-color: rgba(243, 162, 96, 0.772);
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;              
+    }
+
+    .main img {
+        display: none;
+    }
+
+    .footer h2 {
+        font-size: 15px;
+    }
+
+    .footer p {
+        display: none;
+    }
+
+    .icon {
+        gap: 10px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:1024px) {
+
+    .header-content h2 {
+        font-size: 10px;
+        text-transform: uppercase;
+    }
+
+    .header-content p, button {
+        font-size: 10px;
+    }
+
+    .main {
+        background-color: black;
+        color: white;
+    }
+
+    .main h1, p {
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    .main button {
+        background-color: rgba(243, 162, 96, 0.772);
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;              
+    }
+    .main img {
+        display: none;
+    }
+
+    .footer h2 {
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+
